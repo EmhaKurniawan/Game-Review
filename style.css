@@ -1,0 +1,79 @@
+body{
+    background-color:antiquewhite;
+    margin: 50px 50px 0px 50px;
+    display: flex;
+    flex-direction:column;
+    min-width:95vh;
+
+}
+.span{
+    color: gold
+}
+.logo{
+    width:300px;
+    height:300px;
+    margin-bottom:0px;
+}
+.title{
+    margin-top:0px;
+    padding-top:0px;
+
+}
+h1{
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:5rem
+}
+h2{
+    font-family:"IBM Plex Sans", sans-serif;
+    font-size:2.5rem
+}
+p{
+    font-family:"Barlow Condensed", sans-serif;
+    font-size:2rem;
+}
+.footer{
+    clear:both;
+    text-align:right;
+}
+.right-card, .left-card{
+    width:45%
+}
+.right-image, .left-image{
+    float:left;
+    height:200px;
+    margin-right:50px;
+
+}
+.right-card{
+    float:right;
+}
+.left-card{
+    float:left;
+}
+@media(max-width:680px){
+    .left-card{
+        width:100%;
+        display:block;
+        margin-bottom:30px;
+        text-align:justify;
+    }
+    .right-card{
+        width:100%;
+        display:block;
+        margin-bottom:30px;
+        text-align:justify;
+        clear:left; 
+    }
+    p{
+        font-family:"Barlow Condensed", sans-serif;
+        font-size:1rem;
+        margin-right:20px;
+    }
+    .left-image{
+        margin-bottom:10px;
+        width:100%;
+        display:inline;
+        object-fit:cover;
+        clear:left;
+    }
+}
